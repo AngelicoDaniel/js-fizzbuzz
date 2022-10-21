@@ -1,0 +1,45 @@
+div {
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+    margin: auto;
+}
+
+.box{
+    width: 150px;
+    height: 150px;
+    margin: 2px solid black; 
+    background-color: salmon;  
+    margin: 5px;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.box-blue{
+    width: 150px;
+    height: 150px; 
+    margin: 5px;
+    align-items: center;
+    justify-content: center;
+    background-color: gold;
+   
+}
+
+.box-green{
+    width: 150px;
+    height: 150px;
+    margin: 5px;
+    align-items: center;
+    justify-content: center;
+    background-color: brown;
+}
+
+.box-red{
+    width: 150px;
+    height: 150px; 
+    margin: 5px;
+    align-items: center;
+    justify-content: center;
+    background-color: green;
+}
