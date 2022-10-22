@@ -1,45 +1,50 @@
+body{
+    background-color: #083B4C;
+}
+
 div {
     display: flex;
     flex-wrap: wrap;
     width: 70%;
     margin: auto;
+
 }
 
 .box{
     width: 150px;
     height: 150px;
-    margin: 2px solid black; 
-    background-color: salmon;  
+    margin: 2px solid black;  
     margin: 5px;
+    background-color: #1389B2;
     align-items: center;
     justify-content: center;
    
 }
 
-.box-blue{
+.box-fizz{
     width: 150px;
     height: 150px; 
     margin: 5px;
     align-items: center;
     justify-content: center;
-    background-color: gold;
+    background-color: #0CD6A1;
    
 }
 
-.box-green{
+.box-buzz{
     width: 150px;
     height: 150px;
     margin: 5px;
     align-items: center;
     justify-content: center;
-    background-color: brown;
+    background-color: #FFD166;
 }
 
-.box-red{
+.box-fizzbuzz{
     width: 150px;
     height: 150px; 
     margin: 5px;
     align-items: center;
     justify-content: center;
-    background-color: green;
+    background-color: #F0466F;
 }
