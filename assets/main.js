@@ -10,7 +10,7 @@ FizzBuzz.append(number);
 for (let i = 1; i <= 100; i++) {
 
     if ( i % 3 === 0 && i % 5 === 0){
-        number.innerHtml += `<div class="box-fizzbuzz">FizzBuzz</div>`
+        number.innerHTML += `<div class="box-fizzbuzz">FizzBuzz</div>`
         console.log('FizzBuzz')
 
     } else if ( i  % 3 === 0){
